@@ -13,9 +13,9 @@ while not ok:
 
 def switch(s):
     return {
-        0: "choroby1.yaml",
-        1: "choroby2.yaml",
-        2: "egzamin.yaml"
+        0: "data/choroby1.yaml",
+        1: "data/choroby2.yaml",
+        2: "data/egzamin.yaml"
     }[s]
 
 
