@@ -1,0 +1,34 @@
+Hypotheses:
+# For each hypothesis:
+# - name: name of the hypothesis
+#   prob: a-priori probability of the hypothesis, Pr(h)
+  - name: zda
+    prob: 0.6
+  - name: nie zda
+    prob: 0.4
+Facts: 
+# For each fact:
+# - name: name of the fact
+#   prob: 
+#   For each hypothesis: 
+#   - probability that fact belongs to the hypothesis, Pr(f|h)
+  - name: student umie
+    prob: 
+    - 0.95
+    - 0.1
+  - name: studenta zjada stres
+    prob: 
+    - 0.2
+    - 0.8
+  - name: student jest ładnie ubrany
+    prob: 
+    - 0.55
+    - 0.45
+  - name: egzaminator ma dobry humor
+    prob: 
+    - 0.6
+    - 0.4
+  - name: egzaminatorowi się spieszy
+    prob: 
+    - 0.7
+    - 0.3

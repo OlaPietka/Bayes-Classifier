@@ -1,0 +1,31 @@
+Hypotheses:
+# For each hypothesis:
+# - name: name of the hypothesis
+#   prob: a-priori probability of the hypothesis, Pr(h)
+  - name: grypa
+    prob: 0.1
+  - name: przeziębienie
+    prob: 0.2
+  - name: inna choroba
+    prob: 0.7    
+Facts: 
+# For each fact:
+# - name: name of the fact
+#   prob: 
+#   For each hypothesis: 
+#   - probability that fact belongs to the hypothesis, Pr(f|h)
+  - name: katar
+    prob: 
+    - 0.5
+    - 0.8
+    - 0.2
+  - name: kaszel
+    prob: 
+    - 0.3
+    - 0.5
+    - 0.4
+  - name: gorączka
+    prob: 
+    - 0.8
+    - 0.4
+    - 0.2
